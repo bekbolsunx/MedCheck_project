@@ -11,7 +11,7 @@ Doctor, Patient) has dedicated services and data access objects (DAOs) for effic
 
 ## Project Structure
 
-###MedCheck/
+### MedCheck/
 ├── .idea/
 ├── out/
 ├── src/
