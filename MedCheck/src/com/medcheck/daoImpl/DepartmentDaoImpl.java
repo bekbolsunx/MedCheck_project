@@ -1,34 +1,3 @@
-//package com.medcheck.daoImpl;
-//
-//import com.medcheck.dao.DepartmentDao;
-//import com.medcheck.models.Department;
-//import com.medcheck.dao.Database;
-//
-//import java.util.List;
-//import java.util.stream.Collectors;
-//
-//public class DepartmentDaoImpl implements DepartmentDao {
-//    private Database db;
-//
-//    public DepartmentDaoImpl(Database db) {
-//        this.db = db;
-//    }
-//
-//    @Override
-//    public List<Department> getAllDepartmentByHospital(Long id) {
-//        return db.getDepartments().stream()
-//                .filter(d -> d.getHospitalId().equals(id))
-//                .collect(Collectors.toList());
-//    }
-//
-//    @Override
-//    public Department findDepartmentByName(String name) {
-//        return db.getDepartments().stream()
-//                .filter(d -> d.getDepartmentName().equalsIgnoreCase(name))
-//                .findFirst()
-//                .orElse(null);
-//    }
-//}
 package com.medcheck.daoImpl;
 
 import com.medcheck.dao.Database;
